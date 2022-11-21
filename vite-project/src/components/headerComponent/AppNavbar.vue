@@ -32,7 +32,7 @@ export default {
 <style lang="scss">
 
 .jumbo_bg {
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     z-index: 1;
@@ -44,7 +44,7 @@ export default {
 }
 
 .content {
-    position: fixed;
+    position: relative;
     left: 0;
     right: 0;
     z-index: 100000;

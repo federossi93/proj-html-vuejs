@@ -25,8 +25,8 @@ export default {
 <style lang="scss">
 
 .jumbo {
-    width: 35%;
-    position: fixed;
+    width: 50%;
+    position: absolute;
     left: 50%;
     transform: translate(-50%);
     top: 400px;
