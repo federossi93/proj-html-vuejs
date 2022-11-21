@@ -1,12 +1,20 @@
 <script >
+import AppHeader from './components/AppHeader.vue';
+
+
+export default {
+  name: "App",
+  components: {
+    AppHeader,
+  }
+}
 
 </script>
 
 <template>
-  <div class="container">
-    <h1 class="">ciao come stai</h1>
-    
-  </div>
+  <AppHeader />
+
+
 </template>
 
 <style scoped>
