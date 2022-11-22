@@ -7,8 +7,8 @@ export default {
 <template>
 
     <div class="news_letter">
-        <div class="container py-5">
-            <div class="row row-cols-2 py-5 ">
+        <div class="container py-5 px-5">
+            <div class="row row-cols-2 py-5 px-5">
                 <div class="col">
                     <span class="text-success text-uppercase">newsletter</span>
                     <h2 class="text-light my-4"><span class="bg-success">Knows</span> First</h2>

@@ -8,14 +8,23 @@ export default {
   components: {
     AppHeader,
     AppMain
-}
+  }
 }
 
 </script>
 
+<!--
+  #inserire icone
+  #creare variabile con i colori
+  #Fix AppCompany
+-->
+
 <template>
   <AppHeader />
+
   <AppMain />
+
+  
 
 </template>
 

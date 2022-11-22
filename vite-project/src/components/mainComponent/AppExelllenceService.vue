@@ -7,7 +7,7 @@ export default {
 <template>
 
 <!--excellence in services-->
-<div class="service_bg ">
+<div class="service_bg  py-5">
         <div class="container container_cards">
             <div class="row">
 
@@ -95,8 +95,6 @@ export default {
 
 .service_bg {
     background-color: #1e2223;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
 
     .container_cards {
         max-width: 1280px;

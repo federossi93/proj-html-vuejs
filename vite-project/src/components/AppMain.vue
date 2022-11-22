@@ -5,6 +5,7 @@ import AppExelllenceService from './mainComponent/AppExelllenceService.vue';
 import AppMonthlyPlans from './mainComponent/AppMonthlyPlans.vue';
 import AppLastNews from './mainComponent/AppLastNews.vue';
 import AppNewsLetter from './mainComponent/AppNewsLetter.vue';
+import AppSendMessage from './mainComponent/AppSendMessage.vue';
 
 
 export default {
@@ -15,7 +16,8 @@ export default {
     AppExelllenceService,
     AppMonthlyPlans,
     AppLastNews,
-    AppNewsLetter
+    AppNewsLetter,
+    AppSendMessage
 }
 }
 
@@ -36,6 +38,7 @@ export default {
 
     <AppNewsLetter />
 
+    <AppSendMessage />
 
 </template>
 

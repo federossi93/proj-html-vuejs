@@ -9,17 +9,17 @@ export default {
 <template>
 
     <!--last news-->
-    <div class="container last_news my-5">
-        <div class="pb-4">
+    <div class="container last_news py-5">
+        <div class="py-5">
             <span class="text-uppercase text-success">our editorial content</span>
             <h2>Latest <span class="text-success">News</span></h2>
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between align-items-center">
                 <span>Every week we publish content abou what is best in the business world.</span>
                 <button class="btn_green mx-2 text-uppercase">see all</button>
             </div>
         </div>
 
-        <div class="row row-cols-3">
+        <div class="row row-cols-3 mb-5">
             <div class="col ">
                 <div class="card position-relative">
                     <img class="rounded filter" src="../../assets/img/news-1.jpg" alt="">
@@ -49,7 +49,6 @@ export default {
 <style lang="scss">
 
 .last_news {
-    padding: 6rem 0;
 
     .btn_green {
         color: white;
