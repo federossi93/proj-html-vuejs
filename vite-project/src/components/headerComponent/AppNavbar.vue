@@ -22,7 +22,7 @@ export default {
                 <span><a href="">services</a></span>
                 <span><a href="">princing</a></span>
                 <span><a href="">blog</a></span>
-                <button class="btn_green">get in touch</button>
+                <button class="btn_green text-uppercase">get in touch</button>
             </div>
         </div>
     </div>
