@@ -11,9 +11,9 @@ export default {
         <div class="jumbo_bg"></div>
 
         <div class="content container py-4 d-flex justify-content-between align-items-center">
-            <div class="text-uppercase fs-3">
+            <div class="text-uppercase fs-4 fw-bold">
                 <!--modificare logo-->
-                <span class="text-success">nex</span><span class="text-light">gen</span>
+                <span class="text_next">nex</span><span class="text-light">gen</span>
             </div>
 
             <div class="text-uppercase d-flex gap-3 align-items-center">
@@ -30,6 +30,7 @@ export default {
 </template>
 
 <style lang="scss">
+@use '../../../src/assets/scss/partials/variables.scss' as *;
 
 .jumbo_bg {
     position: absolute;
@@ -49,6 +50,15 @@ export default {
     right: 0;
     z-index: 100000;
 
+    .text_next {
+        color: $bg-green;
+        padding: 0.3rem 0;
+        padding-left: 2rem;
+        padding-right: 0.3rem;
+        border-radius: 50px 0 0 50px;
+        background-color: $bg-trasparent;
+    }
+
     a {
         text-decoration: none;
         color: white;
@@ -62,5 +72,4 @@ export default {
         border-radius: 5px;
     }
 }
-
 </style>

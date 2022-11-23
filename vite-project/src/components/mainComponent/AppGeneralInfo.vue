@@ -15,7 +15,7 @@ export default {
 
                 <div class="col my-3">
                     <div class="bg-light p-5 rounded-4">
-                        <span class="icons"><font-awesome-icon icon="fa-solid fa-user-group" /></span>
+                        <span class="icons fs-3"><font-awesome-icon icon="fa-solid fa-user-group" /></span>
                         <h4 class="mt-4">Human Capital</h4>
                         <p class="my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     </div>
@@ -23,7 +23,7 @@ export default {
 
                 <div class="col my-3">
                     <div class="bg-light p-5 rounded-4">
-                        <span class="icons"><font-awesome-icon icon="fa-solid fa-chart-pie" /></span>
+                        <span class="icons fs-3"><font-awesome-icon icon="fa-solid fa-chart-pie" /></span>
                         <h4 class="mt-4">Core Business</h4>
                         <p class="my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     </div>
@@ -31,7 +31,7 @@ export default {
 
                 <div class="col my-3">
                     <div class="bg-light p-5 rounded-4">
-                        <span class="icons"><font-awesome-icon icon="fa-solid fa-gauge " /></span>
+                        <span class="icons fs-3"><font-awesome-icon icon="fa-solid fa-gauge " /></span>
                         <h4 class="mt-4">Performance</h4>
                         <p class="my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     </div>
@@ -45,10 +45,11 @@ export default {
 
 
 <style lang="scss">
+@use '../../assets/scss/partials/variables.scss' as *;
 
 .general_info {
     margin-top: 710px;
-    background-color: #e3e7df;
+    background-color: $bg-Ge-card;
 
     .container_cards {
         max-width: 1280px;
@@ -58,12 +59,13 @@ export default {
     .icons{
         display: flex;
         align-items: center;
-        text-align: center;
+        justify-content: center;
         padding: 1rem;
-        background-color:#DAECED ;
+        background-color: $bg-icons ;
+        color: $bg-green;
         border-radius: 50%;
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
     }
 }
 </style>

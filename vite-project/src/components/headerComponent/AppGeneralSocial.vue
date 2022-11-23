@@ -1,4 +1,5 @@
 <script>
+
 export default {
     name: "AppGeneralSocial"
 }
@@ -40,14 +41,16 @@ export default {
 
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
+@use '../../assets/scss/partials/variables.scss' as *;
+
 .info {
-    background-color: #24333d;
+    background-color: $bg-social;
 
 }
 
 .text_color {
-    color: #C0C3D0;
+    color: $text-grey;
 }
 
 </style>

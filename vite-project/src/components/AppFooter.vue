@@ -10,7 +10,7 @@ export default {
             <div class="row justify-content-between">
                 <div class="col-2 ">
                     <div class="text-light">
-                        <h2 class="text-uppercase"><span class="text-success ">nex</span>gen</h2>
+                        <h2><span class="text_next">nex</span><span class="text-light">gen</span></h2>
                         <p>A Functional HTML Template for Corporate & Business.</p>
                         <div class="py-2">
                             <font-awesome-icon icon="fa-solid fa-phone" />
@@ -97,9 +97,19 @@ export default {
 
 
 <style lang="scss">
+@use '../assets/scss/partials/variables.scss' as *;
+
 .footer_bg {
     background-color: #1e2223;
 
+    .text_next {
+        color: $bg-green;
+        padding: 0.3rem 0;
+        padding-left: 2rem;
+        padding-right: 0.3rem;
+        border-radius: 50px 0 0 50px;
+        background-color: $bg-trasparent;
+    }
     .btn_trasparent {
         color: white;
         border: none;

@@ -10,8 +10,9 @@ export default {
 <template>
 
     <div class="jumbo text-light text-center">
-        <h1>Lead ~ Costumer</h1>
-        <p>Successful strategis require data analysis, creativity and costumer focus, talking advantage of the lastest
+        <h1 class="fw-bold">Lead ~ <span class="bg_text">Costumer</span> </h1>
+        <p class="text_color">Successful strategis require data analysis, creativity and costumer focus, talking
+            advantage of the lastest
             tecnologies to offer exellent service.
         </p>
         <div class="mt-5">
@@ -22,7 +23,8 @@ export default {
 
 </template>
 
-<style lang="scss">
+<style lang="scss" >
+@use '../../../src/assets/scss/partials/variables.scss' as *;
 
 .jumbo {
     width: 50%;
@@ -32,11 +34,21 @@ export default {
     top: 400px;
     z-index: 100000;
 
+    .bg_text {
+        display: inline-block;
+        padding: 0.5rem;
+        background-color: $bg-trasparent;
+    }
+
+    .text_color {
+        color: $text-grey;
+    }
+
     .btn_green {
         color: white;
         border: none;
         padding: 0.5rem 1rem;
-        background-color: #038483;
+        background-color: $bg-green;
         border-radius: 5px;
     }
 
@@ -45,9 +57,8 @@ export default {
         border: none;
         background-color: transparent;
         padding: 0.5rem 1rem;
-        border: 1px solid #038483;
+        border: 1px solid $bg-green;
         border-radius: 5px;
     }
 }
-
 </style>
