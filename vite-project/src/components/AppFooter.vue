@@ -1,6 +1,13 @@
 <script>
+import { state } from "../state";
+
 export default {
-    name: 'AppFooter'
+    name: 'AppFooter',
+    data() {
+        return {
+            state
+        }
+    }
 }
 </script>
 
@@ -28,49 +35,46 @@ export default {
                         </div>
 
                         <div class="mt-3">
-                            <button class="btn_trasparent text-uppercase">read more</button>
+                            <button class="btn_trasparent text-uppercase">get in touch</button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-2   text-center">
-                    <div class="bg-dark text-light py-4 h-100 rounded">
+                <div class="col-2">
+                    <div class="bg-dark text-light rounded card px-5">
                         <h4 class="my-3">About</h4>
-                        <ul class="">
-                            <li><a href=""></a>The Company</li>
-                            <li><a href=""></a>The Company</li>
-                            <li><a href=""></a>The Company</li>
-                            <li><a href=""></a>The Company</li>
-                            <li><a href=""></a>The Company</li>
-                            <li><a href=""></a>The Company</li>
+                        <ul>
+                            <li class="py-2" v-for="item in state.cardFooter[0].about">
+                                <a href="">
+                                    <span class="fw-bold px-2"><font-awesome-icon icon="fa-solid fa-chevron-right" /></span>{{ item.name }}
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="col-2   text-center">
-                    <div class="bg-dark text-light py-4 h-100 rounded">
+                <div class="col-2">
+                    <div class="bg-dark text-light px-4 rounded card">
                         <h4 class="my-3">Services</h4>
-                        <ul class="">
-                            <li><a href=""></a>The Company</li>
-                            <li><a href=""></a>The Company</li>
-                            <li><a href=""></a>The Company</li>
-                            <li><a href=""></a>The Company</li>
-                            <li><a href=""></a>The Company</li>
-                            <li><a href=""></a>The Company</li>
+                        <ul>
+                            <li class="py-2" v-for="item in state.cardFooter[1].service">
+                                <a href="">
+                                    <span class="fw-bold px-2"><font-awesome-icon icon="fa-solid fa-chevron-right" /></span>{{ item.name }}
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="col-2   text-center">
-                    <div class="bg-dark text-light py-4 h-100 rounded">
+                <div class="col-2">
+                    <div class="bg-dark text-light px-4 rounded card">
                         <h4 class="my-3">Support</h4>
-                        <ul class="">
-                            <li><a href=""></a>The Company</li>
-                            <li><a href=""></a>The Company</li>
-                            <li><a href=""></a>The Company</li>
-                            <li><a href=""></a>The Company</li>
-                            <li><a href=""></a>The Company</li>
-                            <li><a href=""></a>The Company</li>
+                        <ul>
+                            <li class="py-2" v-for="item in state.cardFooter[2].support">
+                                <a href="">
+                                    <span class="fw-bold px-2"><font-awesome-icon icon="fa-solid fa-chevron-right" /></span>{{ item.name }}
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -86,7 +90,7 @@ export default {
 
             <div>
                 &copy; 2020 NEXGEN is Proudly Powered by <span class="text-success">Codings.</span>
-                <div class="prova fs-2 text-secondary">
+                <div class="icons_footer fs-2 text-secondary">
                     <font-awesome-icon icon="fa-regular fa-circle-up" />
                 </div>
             </div>
@@ -110,6 +114,7 @@ export default {
         border-radius: 50px 0 0 50px;
         background-color: $bg-trasparent;
     }
+
     .btn_trasparent {
         color: white;
         border: none;
@@ -119,13 +124,24 @@ export default {
         border-radius: 5px;
     }
 
+    .card {
+        width: 300px;
+        display: flex;
+        align-items: center;
+    }
+
     ul {
-        list-style: none;
         padding: 0;
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+        color:$text-grey ;
     }
 }
 
-.prova {
+.icons_footer {
     position: absolute;
     bottom: 6px;
     right: 20px;

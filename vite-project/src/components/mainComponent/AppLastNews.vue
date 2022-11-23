@@ -21,24 +21,45 @@ export default {
 
         <div class="row row-cols-3 mb-5">
             <div class="col ">
-                <div class="card position-relative">
+                <div class="card position-relative hover ">
                     <img class="rounded filter" src="../../assets/img/news-1.jpg" alt="">
                     <span class="position_text text-light fw-bold">Increasing creativity is possible for everyone</span>
+                    <div class="position_text_hover text-light">
+                        <span><font-awesome-icon icon="fa-solid fa-user" /> Andrea miller <font-awesome-icon icon="fa-solid fa-clock" /> Days Ago</span>
+                    </div>
+
+                    <div class="position_text_hover_2 text-light">
+                        <span>Lorem ipsum dolor sit amet consectetur</span>
+                    </div>
+
                 </div>
             </div>
 
             <div class="col ">
-                <div class="card position-relative">
+                <div class="card position-relative hover">
                     <img class="rounded filter" src="../../assets/img/news-2.jpg" alt="">
-                    <span class="position_text text-light fw-bold text-center">Because market research is part of the
-                        business plan</span>
+                    <span class="position_text text-light fw-bold text-center">Because market research is part of thebusiness plan</span>
+                    <div class="position_text_hover text-light">
+                        <span> <font-awesome-icon icon="fa-solid fa-user" /> Andrea miller <font-awesome-icon icon="fa-solid fa-clock" /> Days Ago</span>
+                    </div>
+
+                    <div class="position_text_hover_2 text-light">
+                        <span>Lorem ipsum dolor sit amet consectetur</span>
+                    </div>
                 </div>
             </div>
 
             <div class="col ">
-                <div class="card position-relative">
+                <div class="card position-relative hover">
                     <img class="rounded filter" src="../../assets/img/news-3.jpg" alt="">
                     <span class="position_text text-light fw-bold">Increasing creativity is possible for everyone</span>
+                    <div class="position_text_hover text-light">
+                        <span> <font-awesome-icon icon="fa-solid fa-user" /> Andrea miller <font-awesome-icon icon="fa-solid fa-clock" /> Days Ago</span>
+                    </div>
+
+                    <div class="position_text_hover_2 text-light">
+                        <span>Lorem ipsum dolor sit amet consectetur</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -81,6 +102,36 @@ export default {
         filter: brightness(0.4);
     }
 
-}
+    .hover:hover img {
+        filter: blur(3px) brightness(0.4);
+    }
 
+    .hover:hover .position_text_hover{
+        display: block;
+    }
+
+    .hover:hover .position_text_hover_2{
+        display: block;
+    }
+
+    .hover:hover .position_text{
+        bottom: 150px;
+    }
+
+    .position_text_hover{
+        display: none;
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .position_text_hover_2{
+        display: none;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
 </style>

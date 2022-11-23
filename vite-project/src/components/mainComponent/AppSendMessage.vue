@@ -40,7 +40,7 @@ export default {
                             <input type="text" class="form-control text_area" rows="10" placeholder="Message">
                         </div>
                     </div>
-                    <button class="btn_green text-uppercase mt-4">subscribe</button>
+                    <button class="btn_green text-uppercase mt-4">send</button>
                 </div>
 
                 <div class="col-4 px-5">
@@ -69,7 +69,7 @@ export default {
                     </div>
 
                     <div class="my-4">
-                        <button class="btn_form text-uppercase ">subscribe</button>
+                        <button class="btn_form text-uppercase ">view map</button>
                     </div>
                 </div>
             </div>

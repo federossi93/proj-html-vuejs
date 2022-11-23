@@ -22,48 +22,51 @@ export default {
         <div class="container">
             <div class="row align-items-center">
                 <div class="col ">
-                    <div class="bg-light p-5 rounded">
-                        <!--offers-->
-                        <div class="text-center">
-                            <span class="icons fs-1">
-                                <font-awesome-icon icon="fa-solid fa-rocket" />
-                            </span>
-                            <h4 class="mt-3">Standard</h4>
-                            <div class="text_color mb-3">
-                                <span class="fs-5">$</span> <span class="fs-2 fw-bold">490</span>/ mo
+                    <div class="bg-light hover rounded">
+                        <div class=" p-5 ">
+                            <!--offers-->
+                            <div class="text-center">
+                                <span class="icons fs-1">
+                                    <font-awesome-icon icon="fa-solid fa-rocket" />
+                                </span>
+                                <h4 class="mt-3">Standard</h4>
+                                <div class="text_color mb-3">
+                                    <span class="fs-5">$</span> <span class="fs-2 fw-bold">490</span>/ mo
+                                </div>
+                            </div>
+                            <!--benefits-->
+                            <div class="d-flex justify-content-between py-2">
+                                <span>Standard Accounting</span>
+                                <span class="text_color fs-3">&#128504;</span>
+                            </div>
+
+                            <div class="d-flex justify-content-between py-2">
+                                <span>Platform Access</span>
+                                <span class="text_color fs-3">&#128504;</span>
+                            </div>
+
+                            <div class="d-flex justify-content-between py-2">
+                                <span>Business Orientation</span>
+                                <span class="text_color fs-3">&#215;</span>
+                            </div>
+
+                            <div class="d-flex justify-content-between py-2">
+                                <span>Dedicated Consultant</span>
+                                <span class="text_color fs-3">&#215;</span>
+                            </div>
+
+                            <div class="d-flex justify-content-between py-2">
+                                <span>Personal Assistance</span>
+                                <span class="text_color fs-3">&#215;</span>
                             </div>
                         </div>
-                        <!--benefits-->
-                        <div class="d-flex justify-content-between py-2">
-                            <span>Standard Accounting</span>
-                            <span class="text_color fs-3">&#128504;</span>
-                        </div>
-
-                        <div class="d-flex justify-content-between py-2">
-                            <span>Platform Access</span>
-                            <span class="text_color fs-3">&#128504;</span>
-                        </div>
-
-                        <div class="d-flex justify-content-between py-2">
-                            <span>Business Orientation</span>
-                            <span class="text_color fs-3">&#215;</span>
-                        </div>
-
-                        <div class="d-flex justify-content-between py-2">
-                            <span>Dedicated Consultant</span>
-                            <span class="text_color fs-3">&#215;</span>
-                        </div>
-
-                        <div class="d-flex justify-content-between py-2">
-                            <span>Personal Assistance</span>
-                            <span class="text_color fs-3">&#215;</span>
-                        </div>
                     </div>
+
                 </div>
 
                 <div class="col">
-                    <div class="bg-light p-5 rounded position-relative">
-                        <div class="py-3">
+                    <div class="bg-light rounded hover position-relative">
+                        <div class=" p-5 ">
                             <!--offers-->
                             <div class="popular">
                                 <span>Most <br> Popular</span>
@@ -107,42 +110,45 @@ export default {
                 </div>
 
                 <div class="col ">
-                    <div class="bg-light p-5 rounded">
-                        <!--offers-->
-                        <div class="text-center">
-                            <span class="icons fs-1">
-                                <font-awesome-icon icon="fa-solid fa-gem" />
-                            </span>
-                            <h4 class="mt-3">Ultimate</h4>
-                            <div class="text_color mb-3">
-                                <span class="fs-5">$</span> <span class="fs-2 fw-bold">1.390</span>/ mo
+                    <div class="bg-light hover rounded">
+                        <div class=" p-5">
+                            <!--offers-->
+                            <div class="text-center">
+                                <span class="icons fs-1">
+                                    <font-awesome-icon icon="fa-solid fa-gem" />
+                                </span>
+                                <h4 class="mt-3">Ultimate</h4>
+                                <div class="text_color mb-3">
+                                    <span class="fs-5">$</span> <span class="fs-2 fw-bold">1.390</span>/ mo
+                                </div>
+                            </div>
+                            <!--benefits-->
+                            <div class="d-flex justify-content-between py-2">
+                                <span>Standard Accounting</span>
+                                <span class="text_color fs-3">&#128504;</span>
+                            </div>
+
+                            <div class="d-flex justify-content-between py-2">
+                                <span>Platform Access</span>
+                                <span class="text_color fs-3">&#128504;</span>
+                            </div>
+
+                            <div class="d-flex justify-content-between py-2">
+                                <span>Business Orientation</span>
+                                <span class="text_color fs-3">&#128504;</span>
+                            </div>
+
+                            <div class="d-flex justify-content-between py-2">
+                                <span>Dedicated Consultant</span>
+                                <span class="text_color fs-3">&#128504;</span>
+                            </div>
+
+                            <div class="d-flex justify-content-between py-2">
+                                <span>Personal Assistance</span>
+                                <span class="text_color fs-3">&#128504;</span>
                             </div>
                         </div>
-                        <!--benefits-->
-                        <div class="d-flex justify-content-between py-2">
-                            <span>Standard Accounting</span>
-                            <span class="text_color fs-3">&#128504;</span>
-                        </div>
 
-                        <div class="d-flex justify-content-between py-2">
-                            <span>Platform Access</span>
-                            <span class="text_color fs-3">&#128504;</span>
-                        </div>
-
-                        <div class="d-flex justify-content-between py-2">
-                            <span>Business Orientation</span>
-                            <span class="text_color fs-3">&#128504;</span>
-                        </div>
-
-                        <div class="d-flex justify-content-between py-2">
-                            <span>Dedicated Consultant</span>
-                            <span class="text_color fs-3">&#128504;</span>
-                        </div>
-
-                        <div class="d-flex justify-content-between py-2">
-                            <span>Personal Assistance</span>
-                            <span class="text_color fs-3">&#128504;</span>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -192,5 +198,16 @@ export default {
         border-radius: 0 20px 20px 0;
         color: white;
     }
+
+
+
+
+    .hover:hover{
+        box-shadow: 0 0 5px 0 $bg-green;
+        padding: 1rem 0;
+        margin: -1rem 0;
+    }
+
+    
 }
 </style>

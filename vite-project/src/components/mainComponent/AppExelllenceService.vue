@@ -33,7 +33,7 @@ export default {
             <div class="row row-cols-3 py-5">
 
                 <div class="col my-3">
-                    <div class="bg-dark text-light p-5 rounded">
+                    <div class="bg-dark text-light p-5 rounded hover">
                         <span class="icons fs-2"><font-awesome-icon icon="fa-solid fa-network-wired" /></span>
                         <h4 class="mt-4">Audit & Assurance</h4>
                         <p class="my-5 text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -42,7 +42,7 @@ export default {
                 </div>
 
                 <div class="col my-3">
-                    <div class="bg-dark text-light p-5 rounded">
+                    <div class="bg-dark text-light p-5 rounded hover">
                         <span class="icons fs-2"><font-awesome-icon icon="fa-solid fa-briefcase" /></span>
                         <h4 class="mt-4">Financial Advisory</h4>
                         <p class="my-5 text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -51,7 +51,7 @@ export default {
                 </div>
 
                 <div class="col my-3">
-                    <div class="bg-dark text-light p-5 rounded">
+                    <div class="bg-dark text-light p-5 rounded hover">
                         <span class="icons fs-2"><font-awesome-icon icon="fa-solid fa-chart-simple" /></span>
                         <h4 class="mt-4">Analytics and M&A</h4>
                         <p class="my-5 text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -60,7 +60,7 @@ export default {
                 </div>
 
                 <div class="col my-3">
-                    <div class="bg-dark text-light p-5 rounded">
+                    <div class="bg-dark text-light p-5 rounded hover">
                         <span class="icons fs-2"><font-awesome-icon icon="fa-solid fa-plane-up" /></span>
                         <h4 class="mt-4">Middle Marketing</h4>
                         <p class="my-5 text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -69,7 +69,7 @@ export default {
                 </div>
 
                 <div class="col my-3">
-                    <div class="bg-dark text-light p-5 rounded">
+                    <div class="bg-dark text-light p-5 rounded hover">
                         <span class="icons fs-2"><font-awesome-icon icon="fa-solid fa-globe" /></span>
                         <h4 class="mt-4">Legal Cosulting</h4>
                         <p class="my-5 text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -78,7 +78,7 @@ export default {
                 </div>
 
                 <div class="col my-3">
-                    <div class="bg-dark text-light p-5 rounded">
+                    <div class="bg-dark text-light p-5 rounded hover">
                         <span class="icons fs-2"><font-awesome-icon icon="fa-solid fa-inbox" /></span>
                         <h4 class="mt-4">Regulatory Risk</h4>
                         <p class="my-5 text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -111,6 +111,11 @@ export default {
     .text{
         color: $text-grey;
     }
+    
+    .btn_trasparent:hover {
+        background-color: $bg-green;
+    }
+
     .btn_trasparent {
         color: white;
         border: none;
@@ -118,6 +123,11 @@ export default {
         padding: 0.5rem 1rem;
         border: 1px solid $bg-green;
         border-radius: 5px;
+    }
+
+    .hover:hover{
+        box-shadow: 0 0 5px 0 $bg-green;
+        margin-top: -0.3rem;
     }
 
     .icons{

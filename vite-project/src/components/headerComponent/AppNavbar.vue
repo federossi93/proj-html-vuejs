@@ -1,6 +1,13 @@
 <script>
+import { state } from "../../state";
+
 export default {
-    name: 'AppNavbar'
+    name: 'AppNavbar',
+    data() {
+        return {
+            state
+        }
+    }
 }
 </script>
 
@@ -16,14 +23,12 @@ export default {
                 <span class="text_next">nex</span><span class="text-light">gen</span>
             </div>
 
-            <div class="text-uppercase d-flex gap-3 align-items-center">
-                <span><a href="">home</a></span>
-                <span><a href="">about</a></span>
-                <span><a href="">services</a></span>
-                <span><a href="">princing</a></span>
-                <span><a href="">blog</a></span>
-                <button class="btn_green text-uppercase">get in touch</button>
+            <div class="d-flex align-items-center">
+                <div class="text-uppercase gap-3 " v-for="navElement in state.navBar">
+                    <span class="nav_hover rounded-2 "><a href="">{{ navElement.name }}</a></span>
+                </div>
             </div>
+
         </div>
     </div>
 
@@ -64,12 +69,12 @@ export default {
         color: white;
     }
 
-    .btn_green {
-        color: white;
-        border: none;
+    .nav_hover {
         padding: 0.5rem 1rem;
-        background-color: #038483;
-        border-radius: 5px;
+    }
+
+    .nav_hover:hover {
+        background-color: $bg-green;
     }
 }
 </style>

@@ -16,7 +16,7 @@ export default {
             tecnologies to offer exellent service.
         </p>
         <div class="mt-5">
-            <button class="btn_green mx-2 text-uppercase">get in touch</button>
+            <button class="btn_trasparent mx-2 text-uppercase">get in touch</button>
             <button class="btn_trasparent mx-2 text-uppercase">read more</button>
         </div>
     </div>
@@ -44,12 +44,8 @@ export default {
         color: $text-grey;
     }
 
-    .btn_green {
-        color: white;
-        border: none;
-        padding: 0.5rem 1rem;
+    .btn_trasparent:hover {
         background-color: $bg-green;
-        border-radius: 5px;
     }
 
     .btn_trasparent {

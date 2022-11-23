@@ -14,7 +14,7 @@ export default {
             <div class="row row-cols-3 py-5">
 
                 <div class="col my-3">
-                    <div class="bg-light p-5 rounded-4">
+                    <div class="bg-light p-5 rounded-4 hover">
                         <span class="icons fs-3"><font-awesome-icon icon="fa-solid fa-user-group" /></span>
                         <h4 class="mt-4">Human Capital</h4>
                         <p class="my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -22,7 +22,7 @@ export default {
                 </div>
 
                 <div class="col my-3">
-                    <div class="bg-light p-5 rounded-4">
+                    <div class="bg-light p-5 rounded-4 hover">
                         <span class="icons fs-3"><font-awesome-icon icon="fa-solid fa-chart-pie" /></span>
                         <h4 class="mt-4">Core Business</h4>
                         <p class="my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -30,7 +30,7 @@ export default {
                 </div>
 
                 <div class="col my-3">
-                    <div class="bg-light p-5 rounded-4">
+                    <div class="bg-light p-5 rounded-4 hover">
                         <span class="icons fs-3"><font-awesome-icon icon="fa-solid fa-gauge " /></span>
                         <h4 class="mt-4">Performance</h4>
                         <p class="my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -66,6 +66,11 @@ export default {
         border-radius: 50%;
         height: 60px;
         width: 60px;
+    }
+
+    .hover:hover{
+        box-shadow: 0 0 5px 0 $bg-green;
+        margin-top: -1rem;
     }
 }
 </style>

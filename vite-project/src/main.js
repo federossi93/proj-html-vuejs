@@ -31,6 +31,8 @@ import { faRocket } from '@fortawesome/free-solid-svg-icons'
 import { faGem } from '@fortawesome/free-solid-svg-icons'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faCircleUp } from '@fortawesome/free-regular-svg-icons'
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -71,7 +73,9 @@ library.add(
     faRocket,
     faGem,
     faLocationDot,
-    faCircleUp
+    faCircleUp,
+    faChevronRight,
+    faUser
     )
 
 createApp(App)
