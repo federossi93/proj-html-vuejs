@@ -1,4 +1,5 @@
 <script >
+import AppFooter from './components/AppFooter.vue';
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 
@@ -7,16 +8,15 @@ export default {
   name: "App",
   components: {
     AppHeader,
-    AppMain
-  }
+    AppMain,
+    AppFooter
+}
 }
 
 </script>
 
 <!--
-  #inserire icone
   #creare variabile con i colori
-  #Fix AppCompany
 -->
 
 <template>
@@ -24,7 +24,7 @@ export default {
 
   <AppMain />
 
-  
+  <AppFooter />
 
 </template>
 

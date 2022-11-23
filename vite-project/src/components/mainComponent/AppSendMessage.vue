@@ -47,16 +47,19 @@ export default {
                     <h4>Example Inc.</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     <p>Present diam lacus,dapibus sed imperdiet consecteur.</p>
-                    <div class="my-2">
-                        (icon) <span class="text-success">+1 (305 1234-5678)</span>
+                    <div class="my-2 d-flex align-items-center">
+                        <span class="icons"><font-awesome-icon icon="fa-solid fa-phone" /></span>
+                        <span class="text-success mx-2"> +1 (305 1234-5678)</span>
                     </div>
 
-                    <div class="my-2">
-                        (icon) <span class="text-success">+1 (305 1234-5678)</span>
+                    <div class="my-2 d-flex align-items-center">
+                        <span class="icons"><font-awesome-icon icon="fa-solid fa-envelope" /></span>
+                        <span class="text-success mx-2"> +1 (305 1234-5678)</span>
                     </div>
 
-                    <div class="my-2">
-                        (icon) <span class="text-success">+1 (305 1234-5678)</span>
+                    <div class="my-2 d-flex align-items-center">
+                        <span class="icons"><font-awesome-icon icon="fa-solid fa-location-dot" /></span>
+                        <span class="text-success mx-2"> +1 (305 1234-5678)</span>
                     </div>
 
                     <div class="my-4">
@@ -71,6 +74,19 @@ export default {
 
 
 <style lang="scss">
+.send_message{
+    
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        background-color:#DAECED ;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+    }
+}
 .text_area {
     padding-bottom: 100px;
 }

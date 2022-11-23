@@ -25,7 +25,7 @@ export default{
                     <div class="bg-light p-5 rounded">
                         <!--offers-->
                         <div class="text-center">
-                            <span>(icons)</span>
+                            <span class="icons fs-1"><font-awesome-icon icon="fa-solid fa-rocket" /></span>
                             <h4 class="mt-3">Standard</h4>
                             <div class="text-success mb-3">
                                 <span class="fs-5">$</span> <span class="fs-2 fw-bold">490</span>/ mo
@@ -67,7 +67,7 @@ export default{
                                 <span>Most <br> Popular</span>
                             </div>
                             <div class="text-center">
-                                <span>(icons)</span>
+                                <span class="icons fs-1"><font-awesome-icon icon="fa-solid fa-briefcase" /></span>
                                 <h4 class="mt-3">Professional</h4>
                                 <div class="text-success mb-3">
                                     <span class="fs-5">$</span> <span class="fs-2 fw-bold">890</span>/ mo
@@ -106,7 +106,7 @@ export default{
                     <div class="bg-light p-5 rounded">
                         <!--offers-->
                         <div class="text-center">
-                            <span>(icons)</span>
+                            <span class="icons fs-1"><font-awesome-icon icon="fa-solid fa-gem" /></span>
                             <h4 class="mt-3">Ultimate</h4>
                             <div class="text-success mb-3">
                                 <span class="fs-5">$</span> <span class="fs-2 fw-bold">1.390</span>/ mo
@@ -158,6 +158,11 @@ export default{
         margin: auto;
     }
 }
+
+.icons{
+        color:#0A7670;
+        font-size: 1rem;
+    }
 
 .popular {
     position: absolute;
